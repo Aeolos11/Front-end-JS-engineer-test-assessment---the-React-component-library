@@ -1,0 +1,45 @@
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 240px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 8px 70px 8px 12px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #646cff;
+    box-shadow: 0 0 0 2px rgba(100, 108, 255, 0.2);
+}
+
+.input-clear,
+.input-toggle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    color: #555;
+}
+
+.input-clear {
+    right: 40px;
+}
+
+.input-toggle {
+    right: 10px;
+}
+
+.input-clear:hover,
+.input-toggle:hover {
+    color: #000;
+}
